@@ -1,0 +1,10 @@
+// sass --compass --watch css/main.scss:main.css
+
+@import "compass/css3";
+
+@import "css/layout";
+
+// Widgets
+@import "css/widgets/menu";
+@import "css/widgets/posts";
+@import "css/widgets/news";
