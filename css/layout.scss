@@ -15,6 +15,8 @@ body > * {
 
 #menu, #posts, #news {
   @include inline-block;
+
+  vertical-align: top;
 }
 
 #menu, #posts {
