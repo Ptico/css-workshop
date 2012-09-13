@@ -10,6 +10,11 @@
     font-size: 13px;
 
     li {
+      border: {
+        top:    1px solid #323232;
+        bottom: 1px solid #1b1b1b;
+      }
+
       background-color: #272727;
 
       a {
