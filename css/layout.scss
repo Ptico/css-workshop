@@ -11,6 +11,10 @@ body {
   @include inline-block;
 }
 
+#menu, #posts {
+  margin: 0 10px 10px 0;
+}
+
 #main {
   
 }
