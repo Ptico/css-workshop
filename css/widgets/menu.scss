@@ -6,5 +6,16 @@
     padding: 0;
 
     list-style: none;
+
+    li {
+      a {
+        display: block;
+
+        padding: 4px 10px;
+
+        color: #99958d;
+        text-decoration: none;
+      }
+    }
   }
 }
