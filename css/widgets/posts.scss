@@ -1,6 +1,9 @@
 #posts {
   background-color: #fff;
 
+  // Enhancements
+  @include box-shadow(0 1px 3px rgba(0, 0, 0, 0.5));
+
   article {
     margin-bottom: 2em;
 
