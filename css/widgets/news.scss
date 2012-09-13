@@ -1,9 +1,18 @@
 #news {
   a.subscribe {
+    display: block;
+
+    padding: 8px 0;
+
     border: 1px solid #0053a6;
     border-bottom-color: #003970;
 
     color: #eef2ff;
+    text: {
+      align: center;
+      decoration: none;
+    }
+    font-weight: bold;
 
     background-color: #1f71c3;
   }
