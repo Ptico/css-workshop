@@ -9,12 +9,21 @@
     }
 
     p {
-      
+      color: #3f3f3f;
+    }
+
+    p, footer time {
+      font-size: 13px;
     }
 
     footer {
+      border: {
+        top:    1px solid #ccc;
+        bottom: 3px solid #0154a7;
+      }
+
       time {
-        
+        color: #7a7a7a;
       }
     }
   }
