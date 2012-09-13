@@ -5,6 +5,12 @@ body {
   margin: 0 auto;
 
   background-color: #eee;
+
+  font-size: 0;
+}
+
+body > * {
+  font-size: 14px;
 }
 
 #menu, #posts, #news {
