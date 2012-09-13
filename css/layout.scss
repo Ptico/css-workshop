@@ -43,5 +43,17 @@ body > * {
 
 /* Mobile layout: 320px - 640px */
 @media only screen and (max-width: 640px) {
-  
+  body {
+    width: 300px;
+  }
+
+  #main, #menu, #news {
+    width: 300px;
+
+    margin-left: 0;
+  }
+
+  #posts {
+    width: 280px;
+  }
 }
