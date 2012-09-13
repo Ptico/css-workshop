@@ -7,8 +7,12 @@ body {
   background-color: #eee;
 }
 
-#main {
+#menu, #posts, #news {
+  @include inline-block;
+}
 
+#main {
+  
 }
 
 #menu {
