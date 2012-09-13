@@ -1,3 +1,10 @@
 #menu {
   border-bottom: 3px solid #0154a7;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+  }
 }
