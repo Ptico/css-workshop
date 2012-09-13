@@ -15,5 +15,11 @@
     font-weight: bold;
 
     background-color: #1f71c3;
+
+    // Enhancements
+    @include border-radius(2px);
+    @include background-image(linear-gradient(#3e90e2, #0154a7));
+    @include box-shadow(0 1px 0 #fff);
+    text-shadow: #003b76 0 -1px;
   }
 }
